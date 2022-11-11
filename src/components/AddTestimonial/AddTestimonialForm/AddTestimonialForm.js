@@ -23,7 +23,7 @@ const AddTestimonialForm = () => {
        formData.append("name", reviews.name);
        formData.append("review", reviews.review);
 
-       fetch("http://localhost:5000/addReview", {
+       fetch("https://cleaning-service-server.onrender.com/addReview", {
          method: "POST",
          body: formData,
        })

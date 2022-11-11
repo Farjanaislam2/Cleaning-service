@@ -8,7 +8,7 @@ const StripeHook = ({ order }) => {
 
 const handlePayment = () => {
  const orders = {...order}
-fetch("http://localhost:5000/bookOrder", {
+fetch("https://cleaning-service-server.onrender.com/bookOrder", {
   method: "POST",
   headers: {
     "Content-type": "application/json; charset=UTF-8",

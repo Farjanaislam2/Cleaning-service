@@ -15,7 +15,7 @@ const EditReview = () => {
 
     useEffect(() => {
         const fetchdata = async () => {
-            const res = await fetch(`http://localhost:5000/review/${params.id}`);
+            const res = await fetch(`https://cleaning-service-server.onrender.com/review/${params.id}`);
             const newData = await res.json();
 
             setReviewData(newData);
@@ -52,7 +52,7 @@ const EditReview = () => {
         //     .then(response => response.json())
         //     .then(data => element.innerHTML = data.updatedAt );
 
-        fetch(`http://localhost:5000/update/review/${params.id}`, {
+        fetch(`https://cleaning-service-server.onrender.com/update/review/${params.id}`, {
             method: "POST",
             body: formData,
         })

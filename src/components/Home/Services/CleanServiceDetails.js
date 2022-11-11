@@ -12,7 +12,7 @@ const CleanServiceDetails = () => {
 
   useEffect(() => {
     const fetchdata = async () => {
-      const res = await fetch(`http://localhost:5000/clnService/${params.id}`);
+      const res = await fetch(`https://cleaning-service-server.onrender.com/clnService/${params.id}`);
       const newData = await res.json();
 
       setServiceDetail([newData]);

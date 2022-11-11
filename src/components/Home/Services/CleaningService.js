@@ -6,7 +6,7 @@ import CleanServiceCard from "./CleanServiceCard";
 const CleaningService = () => {
   const [cleanService, setCleanService] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/clnServices")
+    fetch("https://cleaning-service-server.onrender.com/clnServices")
       .then((res) => res.json())
       .then((data) => setCleanService(data));
   }, []);

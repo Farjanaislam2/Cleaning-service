@@ -25,7 +25,7 @@ data.service = orderOn;
     }
     
 
-   fetch("http://localhost:5000addOrder", {
+   fetch("https://cleaning-service-server.onrender.comaddOrder", {
      method: "POST",
      headers: { "content-type": "application/json" },
      body: JSON.stringify(fromData),

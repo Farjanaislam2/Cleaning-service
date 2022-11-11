@@ -22,7 +22,7 @@ const AddServiceForm = () => {
      formData.append("about", services.Description);
      formData.append("balance", services.price);
 
-     fetch("http://localhost:5000/addServices", {
+     fetch("https://cleaning-service-server.onrender.com/addServices", {
        method: "POST",
        body: formData,
      })
