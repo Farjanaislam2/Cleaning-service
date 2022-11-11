@@ -26,3 +26,6 @@ const CleanServiceDetailCard = ({serviceDetail}) => {
 };
 
 export default CleanServiceDetailCard;
+
+
+.
