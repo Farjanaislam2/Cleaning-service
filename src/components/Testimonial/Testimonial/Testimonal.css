@@ -1,0 +1,10 @@
+.review-card{
+    /* border: 1px solid salmon; */
+    box-shadow: 2px 2px 10px gray;
+    height: 100%;
+}
+.review-card img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}

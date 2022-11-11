@@ -1,0 +1,7 @@
+.staff-img img{
+    height: 200px;
+    width:200px;
+    padding: 10px;
+    border: 1px solid #1476af;
+     border-radius: 50%;
+}
